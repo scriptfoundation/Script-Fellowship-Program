@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #074368;
+}
+
+.container{
+	position: relative;
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+.container .card{
+	position: relative;
+	width: 300px;
+	height: 315px;
+	background-color: #fff;
+	padding: 20px 15px;
+	margin: 80px 35px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.container .card:hover{
+	height: 420px;
+	box-shadow: 0 50px 204px #03a9f4;
+
+}
+
+.container .card .imgbx{
+   
+   position: relative;
+   width: 260px;
+   height: 260px;
+   top: -60px;
+   left: 0px;
+   z-index: 1;
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+  
+}
+
+.container .card:hover .imgbx{
+
+	box-shadow: 0 5px 50px #06d2bf;
+
+}
+
+.container .card .imgbx img{
+	max-width: 100%;
+	border-radius: 0px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0%;
+
+
+}
+
+.container .card .content{
+	position: relative;
+	margin-top: -140px;
+	padding: 10px 15px;
+	text-align: center;
+	color: #111;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content{
+
+	visibility: visible;
+	opacity: 1;
+	margin-top: -40px;
+	transition-delay: 0.3s;
+}
+
+.container .card .content h1{
+	color: #3F51B5;
+	font-size: 2em;
+	
+}
+
+.container .card .content h2{
+	color: #3F51B5;
+	font-size: 1.6em;
+	
+}
+
+.container .card .content p{
+	color: #009688;
+	font-size:1.2em;
+	font-weight:600;
+}
+
+
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none;
+}
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px #03A9F4;
+
+    
+}
+.social-icons li {
+    display: inline-block;
+    margin: 10px 8px 8px 0px;
+    font-weight: 100;
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
