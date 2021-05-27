@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Our Projects</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body style="background: white;">
+<h1 style="text-align: center;padding-top: 60px;color: black;">Our Projects will be Updated soon.</h1>
+
+<!-- <div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background-image:url(1.jpg)">
+      <p style="color: white;padding-top: 210px;">My first employer. All the stuff I've learned and projects I've been working on.My first employer. All the stuff I've learned and projects I've been working on.My first employer. All the stuff I've learned and projects I've been working on.</p>
+    </div>
+    <div class="swiper-slide" style="background-image:url(2.jpg)">
+       <p style="color: white;padding-top: 210px;" >My first employer. All the stuff I've learned and projects I've been working on.My first employer. All the stuff I've learned and projects I've been working on.My first employer. All the stuff I've learned and projects I've been working on.</p>
+    </div>
+    <div class="swiper-slide" style="background-image:url(3.jpeg)">
+       <p style="color: white;padding-top: 210px;">My first employer. All the stuff I've learned and projects I've been working on.My first employer. All the stuff I've learned and projects I've been working on.My first employer. All the stuff I've learned and projects I've been working on.</p>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div> -->
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+
+  // Params
+var swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflow: {
+    rotate: 20,
+    stretch: 0,
+    depth: 200,
+    modifier: 1,
+    slideShadows : true
+  },
+  loop: true,
+  autoplay:{
+  delay:1500,
+  disableOnInteraction:false,
+  },
+});
+</script>
+</body>
+</html>

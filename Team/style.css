@@ -154,7 +154,19 @@ body
 }
 
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
 
+body::-webkit-scrollbar-track {
+  background:rgb(250,250,250);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.6);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
+}
 
 
 input{
@@ -221,5 +233,11 @@ input{
 
 
 
+
+
+a:hover{
+  color: rgb(145,135,165);
+  text-decoration: none;
+}
 
 
