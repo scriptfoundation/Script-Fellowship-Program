@@ -7,7 +7,7 @@
     #particles-js{
       height: 75vh;
       background:#191919;
-      background-size: 42%;
+
       background-image: url(logo.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -139,7 +139,17 @@
 
 
 
+.times{
+   margin: 0;
+  padding: 0;
 
+  background: rgb(230,230,230);
+
+  color: rgb(50,50,50);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 95.5%;
+  line-height: 1.5em;
+}
 
 
 
