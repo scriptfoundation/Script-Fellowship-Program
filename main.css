@@ -57,7 +57,7 @@
     }
     #about_content>h1{
       font-family:Arial Unicode MS;
-      font-size: 3.4em;
+      font-size: 3.2em;
       line-height: 1.7em;
       color:#ff6f00;
     }
@@ -67,8 +67,8 @@
       color: #002B46;
      }
      #about_content>p{
-      font-size: 1.15em;
-      line-height: 1.6em;
+      font-size:1.1em;
+      line-height: 1.8em;
       color:rgba(0,0,0,0.65);
      }
 
@@ -244,39 +244,9 @@
 
     #OverView>p{
       color: grey;
-      line-height: 1.7em;
+      font-size: 1.15em;
+      line-height: 1.8em;
     }
-
-
-
-
-          /*jssor slider loading skin spin css*/
-        .jssorl-009-spin img {
-            animation-name: jssorl-009-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-
-        @keyframes jssorl-009-spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        /*jssor slider bullet skin 057 css*/
-        .jssorb057 .i {position:absolute;cursor:pointer;}
-        .jssorb057 .i .b {fill:none;stroke:#fff;stroke-width:2000;stroke-miterlimit:10;stroke-opacity:0.4;}
-        .jssorb057 .i:hover .b {stroke-opacity:.7;}
-        .jssorb057 .iav .b {stroke-opacity: 1;}
-        .jssorb057 .i.idn {opacity:.3;}
-
-        /*jssor slider arrow skin 073 css*/
-        .jssora073 {display:block;position:absolute;cursor:pointer;}
-        .jssora073 .a {fill:#ddd;fill-opacity:.7;stroke:#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
-        .jssora073:hover {opacity:.8;}
-        .jssora073.jssora073dn {opacity:.4;}
-        .jssora073.jssora073ds {opacity:.3;pointer-events:none;
-        }
 
 
      #prize{
@@ -290,6 +260,42 @@
       font-size: 3em;
       color:#002B46;
      }
+
+
+.prize_bg{
+  box-shadow: 5px 8px 16px rgba(0,0,0,0.4);
+  position: relative;
+
+
+}
+.prize_text{
+  text-align: center;
+  padding-top: 37px;
+  font-size: 1.145em;
+  font-weight: bolder;
+  color: rgba(11,11,11,0.7);
+}
+
+.certificate{
+    font-size: 13px;
+    color: #fff;
+    margin-top: 3px;
+    margin-bottom: 0;
+    background: #c72429;
+    font-weight: 400;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -8px;
+    top: 28px;
+    padding: 1px 18px;
+    letter-spacing: .3px;
+
+}
+
+.space{
+  padding: 30px;
+}
+
 
 
 
@@ -456,6 +462,14 @@ input{
 }
 .social-menu ul li:nth-child(5) a:hover {
     background-color: #0077B5;
+}
+
+#mail{
+  color:white;
+}
+#mail:hover{
+  color: rgb(145,135,165);
+  text-decoration: none;
 }
 
 
