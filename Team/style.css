@@ -60,6 +60,21 @@ body
   flex-direction: column;
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+
+.containers .card h1{
+  color:#3F51B5;
+  font-size: 2em;
+  margin-top: -25px;
+  }
+
+.containers .card  p{
+  color:#009688;
+  font-size:1.2em;
+  font-weight:600;
+  padding-bottom: 45px;
 }
 
 .containers .card:hover{
@@ -112,15 +127,11 @@ body
 
   visibility: visible;
   opacity: 1;
-  margin-top: -40px;
+  margin-top: -50px;
   transition-delay: 0.3s;
 }
 
-.containers .card .content h1{
-  color: #3F51B5;
-  font-size: 1.6em;
 
-}
 
 .containers .card .content h2{
   color: #3F51B5;
@@ -128,10 +139,8 @@ body
 
 }
 
-.containers .card .content p{
-  color: #009688;
-  font-size:1.2em;
-  font-weight:600;
+.social-icons ul{
+  margin-bottom: -10px;
 }
 
 
