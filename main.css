@@ -265,6 +265,7 @@
 .prize_bg{
   box-shadow: 5px 8px 16px rgba(0,0,0,0.4);
   position: relative;
+  overflow:hidden;
 
 
 }
@@ -279,6 +280,7 @@
 .certificate{
     font-size: 13px;
     color: #fff;
+	
     margin-top: 3px;
     margin-bottom: 0;
     background: #c72429;
